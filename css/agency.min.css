@@ -717,3 +717,7 @@ ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
     background-color: #fed136
 }
+
+a.navbar-brand img {
+    max-width: 120px;
+}
