@@ -1,0 +1,11 @@
+$colors: (
+    primary: #437f73,
+    accent: lightness(#437f73),
+    secondary: #aaa,
+    left: #508dc1,
+    right: #00009f
+);
+
+@function color($color){
+    @return map-get($colors,$color)
+};

@@ -1,0 +1,13 @@
+body { margin: 0; }
+
+body .bg-base { background-color: #aaa; position: absolute; width: 100%; height: 100%; z-index: -5; }
+
+body .main { background-image: -webkit-linear-gradient(22.5deg, #508dc1, #00009f); background-image: -o-linear-gradient(22.5deg, #508dc1, #00009f); background-image: linear-gradient(75grad, #508dc1, #00009f); -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%, 85% 100%, 0 100%, 0 25%); clip-path: polygon(0 0, 100% 0, 100% 50%, 85% 100%, 0 100%, 0 25%); position: absolute; width: 100%; height: 100%; margin: 0; z-index: -4; }
+
+.head-base { position: absolute; display: block; background-color: #437f73; margin: 0; height: 20%; width: 100%; z-index: -1; }
+
+.head-base .head-image { position: center; z-index: 0; margin: 0; width: 15%; }
+
+.head-base .head-image img { width: 80%; margin: 0; z-index: 0; }
+
+/*# sourceMappingURL=main.css.map */
